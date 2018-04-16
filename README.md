@@ -2,6 +2,27 @@
 
 # Handwritten-Digit-Classifier
 
+**Objective Goal**
+
+Idenity Handwritten Digits using Convolutional neural network with Heroku and Flask to deploy the code.
+**Steps to run the application**
+1. Clone the repository.
+```
+$ git clone https://github.com/channelCS/digit-identify.git 
+```
+2. Change the name of your local repository with your github repository.
+3. Log into your Heroku account with CLI.
+4. Push your changes in github
+
+```
+$ git add .
+$ git commit -m "Add your commit name"
+$ git push origin master
+```
+5. Deploy it on Heroku with the steps mentioned below.
+
+# Heroku Manual Setup
+
 **Setup The App**
 - Create a free Heroku Account(Online)
 - Python version >= 2.7 installed locally
@@ -66,4 +87,3 @@ To git@heroku.com:lit-bastion-5032.git
 
 ```
 
-** MNIST DATASET **
