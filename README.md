@@ -5,7 +5,9 @@
 **Objective Goal**
 
 Idenity Handwritten Digits using Convolutional neural network with Heroku and Flask to deploy the code.
+
 **Steps to run the application**
+
 1. Clone the repository.
 ```
 $ git clone https://github.com/channelCS/digit-identify.git 
