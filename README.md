@@ -1,31 +1,36 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://digit-identify.herokuapp.com/)
-
 # Handwritten-Digit-Classifier
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://digit-identify.herokuapp.com/)
+[![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/channelCS/digit-identify/blob/master/LICENSE) [![dep1](https://img.shields.io/badge/Tensorflow-1.3+-orange.svg)](https://www.tensorflow.org/) [![dep2](https://img.shields.io/badge/Keras-2.1+-red.svg)](https://keras.io/) [![dep3](https://img.shields.io/badge/Python-2.7+-blue.svg)](https://www.python.org/)
 
 **Objective Goal**
 
-Idenity Handwritten Digits using Convolutional neural network with Heroku and Flask to deploy the code.
+Idenity Handwritten Digits with Convolutional Neural Network using Flask and deploy the app on Heroku.
 
-**Steps to run the application**
+## Steps to run the application
 
-1. Clone the repository.
-```
-$ git clone https://github.com/channelCS/digit-identify.git 
-```
-2. Change the name of your local repository with your github repository.
-3. Log into your Heroku account with CLI.
-4. Push your changes in github
+### Using GitHub
+1. **Fork this repo**
+
+    Click on the <img src = "https://github.com/akshitac8/github-buttons/blob/master/2x/github_fork.png" width=50 /> 
+    button to make a copy of this repo in your own account.
+2. **Clone your repo**
+
+        git clone https://github.com/<your-name>/digit-identify.git
+    
+3. **Log into your Heroku account with CLI.**
+4. **Push your changes in GitHub**
 
 ```
 $ git add .
 $ git commit -m "Add your commit name"
 $ git push origin master
 ```
-5. Deploy it on Heroku with the steps mentioned below.
+5. **Deploy it on Heroku with the steps mentioned below.**
 
-# Heroku Manual Setup
+### Using Heroku Manual Setup
 
-**Setup The App**
+1. **Setup The App**
 - Create a free Heroku Account(Online)
 - Python version >= 2.7 installed locally
 - For Linux:
@@ -34,20 +39,19 @@ $ heroku login
 Enter your Heroku credentials.
 Email: python@example.com
 Password:
-...
 ```
 - For Windows:
   - Download Heroku CLI
   - Once Installed use heroku command on your command shell (cmd)
 
-**Prepare the app**
+2. **Prepare the app**
 
 ```
 $ git clone https://github.com/heroku/python-getting-started.git
 $ cd python-getting-started
 ```
 
-**Deploy the app**
+3. **Deploy the app**
 
 ```
 $ heroku create
