@@ -7,7 +7,18 @@
 
 Idenity Handwritten Digits with Convolutional Neural Network using Flask and deploy the app on Heroku.
 
-## Steps to run the application
+## Description
+The Model uses Convolutional layers for predicting class labels of the image passed.
+<p align="center">    
+    <img src="https://github.com/channelCS/digit-identify/blob/master/mnist_cnn.png" width='500'>
+</p>
+
+## Dependencies
+
+The required dependencies are mentioned in **requirement.txt**, **conda-requirements.txt** and **runetime.txt**. 
+
+
+## Deploy the application
 
 ### Using GitHub
 1. **Fork this repo**
@@ -26,7 +37,9 @@ $ git add .
 $ git commit -m "Add your commit name"
 $ git push origin master
 ```
-5. **Deploy it on Heroku with the steps mentioned below.**
+5. **Refresh your Browser and see your updated site**
+
+
 
 ### Using Heroku Manual Setup
 
@@ -92,4 +105,3 @@ To git@heroku.com:lit-bastion-5032.git
  * [new branch]      master -> master
 
 ```
-
